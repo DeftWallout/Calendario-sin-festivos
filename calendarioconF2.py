@@ -22,7 +22,7 @@ def print_full_year_with_holidays(year):
 
     for month in range(1, 13):  # Iterar de enero (1) a diciembre (12)
         print(f"\n{calendar.month_name[month]} {year}".center(20, "="))  # Título del mes
-        print("Mo Tu We Th Fr Sa Su")  # Encabezado de días de la semana
+        print("Lu Ma Mi Ju Vi Sa Do")  # Encabezado de días de la semana
 
         month_calendar = cal.monthdayscalendar(year, month)  # Obtener semanas del mes
 
